@@ -20,9 +20,9 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * lomuto_partition - function that orders a subset of an array of ints according to
- * the lomuto partition scheme (last element as pivot).
- * @array: array of integers.
+ * lomuto_partition - funct that orders a subset of an array of ints
+ * according to the lomuto partition scheme (last element as pivot)
+ * @array: array of int
  * @size: size of the array.
  * @left: starting index of the subset to order.
  * @right: ending index of the subset to order.
@@ -56,7 +56,8 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort - func that implements the quicksort algorithm through recursion.
+ * lomuto_sort - func that implements the quicksort
+ * algorithm through recursion.
  * @array: array of ints to sort.
  * @size: size of the array.
  * @left: starting index of the array partition to order.
@@ -80,7 +81,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
  * order using the quicksort algorithm.
  * @array: array of ints
  * @size: size of the array
- * Description: Uses the Lomuto partition scheme. 
+ * Description: Uses the Lomuto partition scheme
  * Prints the array after each swap of two elements.
  */
 void quick_sort(int *array, size_t size)
